@@ -1,2 +1,0 @@
-https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/9b1995c7-6108-47fd-8249-4d219206b075
-ewLS3OG6geAVh8drqtTbqY14UF6YB_ySbnd3U6xSyzQZ
