@@ -25,3 +25,7 @@ pip install -r requirements.txt
 5. Rodar o programa:
 
 py main.py 
+
+6. Sugestão: usar o shebang (#!) para indicar o interpretador Python a ser usado:
+
+#!D:\audpy\env\Scripts\python.exe
