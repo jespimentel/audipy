@@ -1,8 +1,8 @@
-# AudiPy
+## AUDIOPY
 
 Transcreve audiências gravadas em formato 'asf' (usado pelo SAJ) usando Inteligência Artificial (Google e IBM Watson).
 
-TUTORIAL (para Windows)
+# Tutorial (para Windows)
 
 1. Criar uma pasta com um nome qualquer (ex. ‘audpy’) e nela copiar os arquivos ‘main.py’ e ‘funcoes.py’.
 
