@@ -1,3 +1,4 @@
+#!D:\audpy\env\Scripts\python.exe
 # This file is part of AudiPy 1.0 do Pimentel.
 # Copyright 2021, José Eduardo de Souza Pimentel.
 
@@ -28,7 +29,7 @@ print ('------------------------------------------\n')
 
 while (True):
     print ('Selecione:')
-    print ('1 - Gerar arquivo wav a partir do arquivo asf de audiência.')
+    print ('1 - Gerar arquivos wav a partir do arquivo asf de audiência.')
     print ('2 - Obter o texto do arquivo wav com a ajuda do Google.')
     print ('3 - Obter o texto do arquivo wav com a ajuda do IBM Watson.')
     print ('4 - Inserir chave e url do IBM Watson.')
@@ -42,9 +43,7 @@ while (True):
         root.withdraw()
         path_arquivo = filedialog.askopenfilename()
         funcoes.gera_wav(path_arquivo)
-        q = input ('Deseja dividir o arquivo wav gerado? [s/n] ')
-        if q == 'S' or 's':
-            funcoes.divide_wav('.\\arquivos_gerados\\audiencia.wav')
+        funcoes.divide_wav('.\\arquivos_gerados\\audiencia.wav')
 
     elif opcao == '2':
         funcoes.transcrever_google()
