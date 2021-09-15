@@ -24,7 +24,7 @@ import sys
 import funcoes
 from tkinter import filedialog, Tk 
 
-print ('\nBem vindo ao FalaPraTexto 1.0 do Pimentel!')
+print ('\nBem vindo ao AudiPy 1.0 do Pimentel!')
 print ('------------------------------------------\n')
 
 while (True):

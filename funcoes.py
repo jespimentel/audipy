@@ -47,10 +47,9 @@ def obtem_url_key ():
         f = open('info_login.txt', 'r')
         url = str(f.readline().replace('\n', ''))
         apikey = str(f.readline().replace('\n', ''))
-        print ('A informação de login do IBM Watson foi lida com sucesso!')
         return url, apikey
     except:
-        print('Ops... Algo deu errado com o arquivo info_login.txt!\n')
+        print('Ops... Algo deu errado com a leitura do arquivo info_login.txt!\n')
 
 def divide_wav (arquivo_wav):
     """Divide o arquivo wav em arquivos de 60 seg. com o uso da biblioteca pydub."""
@@ -112,7 +111,7 @@ def transcrever_ibm():
 
             # Extração do texto 
             with open(f'.\\arquivos_gerados\\{arquivo}', 'rb') as f:
-                resultado = stt.recognize(audio=f, content_type='audio/wav', model='pt-BR_Telephony', continuous=True).get_result()
+                resultado = stt.recognize(audio=f, content_type='audio/wav', model='pt-BR_Telephony').get_result()
 
             # Reúne os 'transcripts'
             texto = ''
@@ -123,7 +122,7 @@ def transcrever_ibm():
         except:
             print(f'Algo deu errado com o arquivo {arquivo}')
             print('Verifique o arquivo ou a sua autenticação no serviço IBM Watson')
-        
+                  
 # Opção 4
 def salva_credenciais_ibm():
     """Grava o arquivo de credenciais (chave e url) do IBM Watson."""
