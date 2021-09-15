@@ -18,7 +18,7 @@ env\Scripts\activate.bat
 
 pip install SpeechRecognition moviepy ibm_watson pydub natsort
 
-Alternativamente, com o arquivo obtido no GitHub:
+  Ou:
 
 pip install -r requirements.txt
 
