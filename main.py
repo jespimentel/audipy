@@ -1,4 +1,4 @@
-# This file is part of FalaPraTexto 1.0 do Pimentel.
+# This file is part of AudiPy 1.0 do Pimentel.
 # Copyright 2021, José Eduardo de Souza Pimentel.
 
 """ Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -23,7 +23,8 @@ import sys
 import funcoes
 from tkinter import filedialog, Tk 
 
-print ('Bem vindo ao FalaPraTexto 1.0 do Pimentel\n')
+print ('\nBem vindo ao FalaPraTexto 1.0 do Pimentel!')
+print ('------------------------------------------\n')
 
 while (True):
     print ('Selecione:')
@@ -31,7 +32,8 @@ while (True):
     print ('2 - Obter o texto do arquivo wav com a ajuda do Google.')
     print ('3 - Obter o texto do arquivo wav com a ajuda do IBM Watson.')
     print ('4 - Inserir chave e url do IBM Watson.')
-    print ('5 - Sair')
+    print ('5 - Deletar arquivos wav gerados.')
+    print ('6 - Sair')
     opcao = input('\n')
     
     if opcao == '1':
@@ -39,9 +41,11 @@ while (True):
         root = Tk()
         root.withdraw()
         path_arquivo = filedialog.askopenfilename()
-        
         funcoes.gera_wav(path_arquivo)
-   
+        q = input ('Deseja dividir o arquivo wav gerado? [s/n] ')
+        if q == 'S' or 's':
+            funcoes.divide_wav('.\\arquivos_gerados\\audiencia.wav')
+
     elif opcao == '2':
         funcoes.transcrever_google()
    
@@ -52,7 +56,10 @@ while (True):
         funcoes.salva_credenciais_ibm()
 
     elif opcao == '5':
+        funcoes.remove_wav()
+    
+    elif opcao == '6':
         sys.exit()
 
     else:
-        print ('Opção inválida')
+        print ('Opção inválida. Tente novamente.\n')
