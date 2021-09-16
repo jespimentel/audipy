@@ -1,4 +1,4 @@
-#!D:\audpy\env\Scripts\python.exe
+#!D:\audipy\env\Scripts\python.exe
 # This file is part of AudiPy 1.0 do Pimentel.
 # Copyright 2021, José Eduardo de Souza Pimentel.
 
