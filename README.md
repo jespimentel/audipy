@@ -6,7 +6,7 @@ Transcreve audiências gravadas em formato 'asf' (usado pelo SAJ) usando Intelig
 
 1. Criar uma pasta com um nome qualquer (ex. ‘audpy’) e nela copiar os arquivos ‘main.py’ e ‘funcoes.py’.
 
-2. Criar o ambiente virtual, se for o caso (indicado para quem tem outros projetos com Python).
+2. Criar o ambiente virtual (se for o caso: indicado somente para quem tem outros projetos com Python).
 
 python -m venv env
 
@@ -26,10 +26,9 @@ py -m pip install -r requirements.txt
 
 py main.py 
 
-6. Sugestão: usar o shebang (#!) na primeira linha de 'main.py' para indicar o interpretador Python a ser usado. Desse modo, o duplo clique no arquivo 'main.py' faz com que o programa rode.
+6. Sugestão: editar o arquivo 'main.py' com o IDLE Shell. Usar o shebang (#!) na primeira linha de 'main.py' indica o caminho para o interpretador Python. Desse modo, o duplo clique no arquivo 'main.py' faz com que o programa rode, facilitando o seu uso.
 
-Exemplo:
-
+Exemplo da 1a. linha a ser incluída no 'main.py':
 #!D:\audpy\env\Scripts\python.exe
 
-7. Sugestão: Deixar um atalho para o 'main.py' na barra de tarefas ou área de trabalho. Modificar propriedades do 'Prompt de Comando' (clicar com o botão direito na barra superior) para alterar fonte (tipo, tamanho, cor, etc.) e cor de fundo.
+7. Mais sugestões: deixar um atalho para o 'main.py' na barra de tarefas ou área de trabalho. Modificar propriedades do 'Prompt de Comando' (clicar com o botão direito na barra superior) para alterar fonte (tipo, tamanho, cor, etc.) e cor de fundo.
