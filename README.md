@@ -26,6 +26,8 @@ py -m pip install -r requirements.txt
 
 py main.py 
 
-6. Sugestão: usar o shebang (#!) para indicar o interpretador Python a ser usado:
+6. Sugestão: usar o shebang (#!) na primeira linha de 'main.py' para indicar o interpretador Python a ser usado.
+
+Exemplo:
 
 #!D:\audpy\env\Scripts\python.exe
