@@ -16,11 +16,11 @@ env\Scripts\activate.bat
 
 4. Instalar as bibliotecas necessárias.
 
-pip install SpeechRecognition moviepy ibm_watson pydub natsort
+py -m pip install SpeechRecognition moviepy ibm_watson pydub natsort
 
   Ou:
 
-pip install -r requirements.txt
+py -m pip install -r requirements.txt
 
 5. Rodar o programa:
 
