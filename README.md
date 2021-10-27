@@ -15,9 +15,9 @@ Audipy 2.0 (versão atual; na raiz):
 
 •	Transcrição com a IA do Google (em Português Br ou Inglês)
 
-•	Não sobrescreve arquivos texto gerados
+•	Não sobrescreve os arquivos-texto gerados
 
-•	Deleta arquivos wav gerados ao sair
+•	Deleta arquivos wav gerados pelo programa ao sair
  
 
 ## Tutorial (para Windows)
