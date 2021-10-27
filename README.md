@@ -12,8 +12,11 @@ Audipy 1.0:
 Audipy 2.0 (recomendada):
 
 •	Requer menos configurações
+
 •	Transcrição com a IA do Google (em Português Br ou Inglês)
+
 •	Não sobrescreve arquivos texto gerados
+
 •	Deleta arquivos wav gerados ao sair
  
 
