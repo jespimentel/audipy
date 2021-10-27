@@ -9,7 +9,7 @@ Audipy 1.0:
 
 •	Transcrição de texto com as IAs do Google e IBM Watson
 
-Audipy 2.0 (recomendada):
+Audipy 2.0 (versão atual; na raiz):
 
 •	Requer menos configurações
 
