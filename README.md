@@ -1,6 +1,21 @@
 # AudiPy
 
-Transcreve audiências gravadas em formato 'asf' (usado pelo SAJ) usando Inteligência Artificial (Google e IBM Watson).
+O programa Audipy (disponível em: https://github.com/jespimentel/AudiPy) foi concebido para transcrever as audiências judiciais gravadas no formato “asf” (de streaming de vídeo avançado), usado pelo SAJ/eSAJ.
+
+O programa também pode ser eficiente para a transcrição de vídeos baixados do YouTube, o que pode ser feito com o programa baixador_youtube (disponível em:  https://github.com/jespimentel/baixador_youtube), do mesmo autor.
+
+
+Audipy 1.0: 
+
+•	Transcrição de texto com as IAs do Google e IBM Watson
+
+Audipy 2.0 (recomendada):
+
+•	Requer menos configurações
+•	Transcrição com a IA do Google (em Português Br ou Inglês)
+•	Não sobrescreve arquivos texto gerados
+•	Deleta arquivos wav gerados ao sair
+ 
 
 ## Tutorial (para Windows)
 
@@ -16,9 +31,17 @@ env\Scripts\activate.bat
 
 4. Instalar as bibliotecas necessárias.
 
+Versão 1.0 (IAs do Google e IBM Watson)
+
 py -m pip install SpeechRecognition moviepy ibm_watson pydub natsort
 
-  Ou:
+
+Versão 2.0 (IA do Google, opções Português Br e Inglês)
+
+py -m pip install SpeechRecognition moviepy pydub natsort
+
+
+Ou:
 
 py -m pip install -r requirements.txt
 
