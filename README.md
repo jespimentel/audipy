@@ -22,7 +22,7 @@ Audipy 2.0 (versão atual; na raiz):
 
 ## Tutorial (para Windows)
 
-1. Criar uma pasta com um nome qualquer (ex. ‘audpy’) e nela copiar os arquivos ‘main.py’ e ‘funcoes.py’.
+1. Criar uma pasta com um nome qualquer (ex. ‘audipy’) e nela copiar os arquivos ‘main.py’ e ‘funcoes.py’.
 
 2. Criar o ambiente virtual (se for o caso: indicado somente para quem tem outros projetos com Python).
 
@@ -58,3 +58,6 @@ Exemplo da 1a. linha a ser incluída no 'main.py':
 #!D:\audpy\env\Scripts\python.exe
 
 7. Mais sugestões: deixar um atalho para o 'main.py' na barra de tarefas ou área de trabalho. Modificar propriedades do 'Prompt de Comando' (clicar com o botão direito na barra superior) para alterar fonte (tipo, tamanho, cor, etc.) e cor de fundo.
+
+Obs. importante: usuários têm relatado problemas com a versão Python 3.10. 
+Prefira a versão 3.9.7.
